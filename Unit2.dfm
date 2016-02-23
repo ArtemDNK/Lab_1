@@ -33,12 +33,10 @@ object Form2: TForm2
     ActivePage = TabSheet1
     Anchors = [akLeft, akTop, akRight, akBottom]
     TabOrder = 1
-    ExplicitWidth = 554
     object TabSheet1: TTabSheet
       Caption = #1047#1072#1087#1086#1083#1085#1103#1077#1090#1089#1103' '#1085#1072#1083#1086#1075#1086#1087#1083#1072#1090#1077#1083#1100#1097#1080#1082#1086#1084
-      ExplicitLeft = 8
+      ExplicitLeft = 7
       ExplicitTop = 28
-      ExplicitWidth = 553
       object Label1: TLabel
         Left = 144
         Top = 88
@@ -114,9 +112,9 @@ object Form2: TForm2
         Top = 64
         Width = 121
         Height = 21
-        EditLabel.Width = 72
+        EditLabel.Width = 27
         EditLabel.Height = 13
-        EditLabel.Caption = #1054#1043#1056#1053'/'#1054#1043#1056#1053#1048#1055
+        EditLabel.Caption = #1054#1043#1056#1053
         TabOrder = 4
       end
       object DateTimePicker1: TDateTimePicker
@@ -200,12 +198,20 @@ object Form2: TForm2
         EditLabel.Caption = #1053#1072#1080#1084#1077#1085#1086#1074#1072#1085#1080#1077' '#1076#1086#1082#1091#1084#1077#1085#1090#1072', '#1087#1086#1076#1090#1074#1077#1088#1078#1076#1072#1102#1097#1077#1075#1086' '#1087#1086#1083#1085#1086#1084#1086#1095#1080#1103' '#1087#1088#1077#1076#1089#1090#1072#1074#1080#1090#1077#1083#1103
         TabOrder = 12
       end
+      object LabeledEdit11: TLabeledEdit
+        Left = 288
+        Top = 64
+        Width = 121
+        Height = 21
+        EditLabel.Width = 41
+        EditLabel.Height = 13
+        EditLabel.Caption = #1054#1043#1056#1053#1048#1055
+        TabOrder = 13
+      end
     end
     object TabSheet2: TTabSheet
       Caption = #1047#1072#1087#1086#1083#1085#1103#1077#1090#1089#1103' '#1085#1072#1083#1086#1075#1086#1074#1099#1084' '#1086#1088#1075#1072#1085#1086#1084
       ImageIndex = 1
-      ExplicitWidth = 281
-      ExplicitHeight = 165
       object Label5: TLabel
         Left = 152
         Top = 5
